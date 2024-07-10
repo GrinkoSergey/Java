@@ -9,10 +9,14 @@ import aufgaben.xml_datenverarbeitung.service.SpeiseService;
  */
 public class Main {
     public static void main(String[] args) {
+        // Erzeugt eine Instanz von GetraenkService, um den Import und die Verarbeitung von Getränken zu ermöglichen.
         GetraenkService getraenkService = new GetraenkService();
+        // Deklariert eine Variable, um später ein Getraenk-Objekt zu speichern.
         Getraenk getraenk = null;
 
+        // Erzeugt eine Instanz von SpeiseService, um den Import und die Verarbeitung von Speisen zu ermöglichen.
         SpeiseService speiseService = new SpeiseService();
+        // Deklariert eine Variable, um später ein Speise-Objekt zu speichern.
         Speise speise = null;
 
         // Import und Ausgabe des Getränks
