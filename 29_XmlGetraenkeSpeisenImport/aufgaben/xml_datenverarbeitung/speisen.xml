@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<speise>
+    <bezeichnung>Pizza Margherita</bezeichnung>
+    <preis>8.50</preis>
+    <zutaten>
+        <zutat>Tomatensauce</zutat>
+        <zutat>Mozzarella</zutat>
+        <zutat>Basilikum</zutat>
+    </zutaten>
+</speise>
